@@ -13,12 +13,28 @@ fun brewCoffee(coffeeGrams: Double, waterMl: Double, milkMl: Double?, sugarGrams
 
 fun main() {
     // Example usage of brewCoffee function
-    val coffee1 = brewCoffee(coffeeGrams = 10.0, waterMl = 200.0, milkMl = null, sugarGrams = null)
-    println(coffee1)
 
-    val coffee2 = brewCoffee(coffeeGrams = 15.0, waterMl = 250.0, milkMl = 50.0, sugarGrams = 5.0)
-    println(coffee2)
+    val coffee1 = brewCoffee(
+        coffeeGrams = 10.0,
+        waterMl = 200.0,
+        milkMl = null,
+        sugarGrams = null
+    )
+    println(coffee1)  // Output: Coffee (10.0 g, 200.0 ml) black unsweetened
 
-    val coffee3 = brewCoffee(coffeeGrams = 20.0, waterMl = 300.0, milkMl = null, sugarGrams = 10.0)
-    println(coffee3)
+    val coffee2 = brewCoffee(
+        coffeeGrams = 15.0,
+        waterMl = 250.0,
+        milkMl = 50.0,
+        sugarGrams = 5.0
+    )
+    println(coffee2)  // Output: Coffee (15.0 g, 250.0 ml) with milk sweetened
+
+    val coffee3 = brewCoffee(
+        coffeeGrams = 20.0,
+        waterMl = 300.0,
+        milkMl = null,
+        sugarGrams = 10.0
+    )
+    println(coffee3)  // Output: Coffee (20.0 g, 300.0 ml) black sweetened
 }
