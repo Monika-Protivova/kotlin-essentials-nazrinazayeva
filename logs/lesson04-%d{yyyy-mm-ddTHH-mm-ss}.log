@@ -1,0 +1,7 @@
+00:32:49 ERROR [main] c.m.e.l.LoggingExample - error message
+00:32:49 WARN  [main] c.m.e.l.LoggingExample - warn message
+00:32:49 INFO  [main] c.m.e.l.LoggingExample - info message
+00:32:49 DEBUG [main] c.m.e.l.LoggingExample - debug message
+00:32:49 TRACE [main] c.m.e.l.LoggingExample - trace message
+00:35:33 INFO  [main] c.m.e.l.TemperatureConverter - Converting 34.0 Celsius to Fahrenheit
+00:35:33 INFO  [main] c.m.e.l.TemperatureConverter - Converting 94.0 Fahrenheit to Celsius
